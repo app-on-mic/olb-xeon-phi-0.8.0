@@ -1,0 +1,2 @@
+#mpiexec.hydra -n 60 -env OMP_NUM_THREADS 4 -host mic0 -wdir /tmp /tmp/cylinder2d
+mpiexec.hydra -n 60 -env OMP_NUM_THREADS 4 -host mic0 ./cylinder2d

@@ -1,0 +1,2 @@
+mpiexec.hydra -n 12 -host crt06 ./cylinder2d : -n  12 -env OMP_NUM_THREADS 20 -env KMP_AFFINITY verbose,balanced ./cylinder2d							
+
